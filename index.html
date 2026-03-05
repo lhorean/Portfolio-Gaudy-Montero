@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Gaudy Montero</title>
-
+    
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
 <header>
     <nav>
-        <h2>Gaudy Montero</h2>
+        <h2 class="logo">GM</h2>
         <ul>
             <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#education">Educación</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#projects">Proyectos</a></li>
             <li><a href="#contact">Contacto</a></li>
@@ -24,89 +27,227 @@
 </header>
 
 <section id="hero">
-    <h1>Hola, soy Gaudy Montero</h1>
-    <h2>Estudiante de Ingeniería en Sistemas de la información</h2>
-
-    <p>
-        Estudiante de Ingeniería en Sistemas con interés en el desarrollo web
-        y la creación de aplicaciones modernas. Me enfoco en el desarrollo
-        full stack, trabajando tanto en el frontend como en el backend
-        para construir soluciones completas y eficientes.
-    </p>
+    <div class="hero-container">
+        <h1>Gaudy <span>Montero</span></h1>
+        <h2>Desarrolladora Web Full Stack</h2>
+        <p>
+            Creando experiencias digitales impactantes con código limpio
+            y diseño moderno. Apasionada por transformar ideas en
+            soluciones web innovadoras.
+        </p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">Contactar</a>
+            <a href="#projects" class="btn-outline">Ver Proyectos</a>
+        </div>
+        <div class="contact-icons">
+            <a href="https://github.com/lhorean"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lorean-montero-7942653aa/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:monterolorean@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
 </section>
 
 <section id="about">
-    <h2>Sobre mí</h2>
+    <h2>Sobre Mí</h2>
+    <div class="about-grid">
+        <div class="about-image">
+            <img src="images/Imag1.jpeg" alt="Gaudy Montero">
+        </div>
+        <div class="about-content">
+            <p>
+                Soy una desarrolladora web full stack apasionada por crear
+                experiencias digitales excepcionales. Con experiencia en
+                tecnologías modernas de frontend y backend, me especializo
+                en construir aplicaciones web escalables y de alto rendimiento.
+            </p>
+            <p>
+                Mi enfoque combina código limpio, diseño intuitivo y las
+                mejores prácticas de la industria para entregar soluciones
+                que no solo funcionan, sino que destacan.
+            </p>
+            <div class="about-cards">
+                <div class="about-card">
+                    <h3>Desarrollo Full Stack</h3>
+                    <p>Dominio de tecnologías frontend y backend para crear aplicaciones completas.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Diseño Moderno</h3>
+                    <p>Interfaces atractivas y funcionales que ofrecen experiencias memorables.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Soluciones Innovadoras</h3>
+                    <p>Enfoque creativo para resolver problemas complejos con elegancia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <p>
-       Soy estudiante de Ingeniería en Sistemas interesada en el desarrollo de software
-       y en la construcción de aplicaciones web. Me motiva comprender tanto la parte
-       visual de las aplicaciones como la lógica que funciona detrás de ellas.
-    </p>
-
-    <p>
-       Actualmente desarrollo proyectos académicos utilizando tecnologías como Java,
-       Spring Boot, HTML, CSS y JavaScript, además de trabajar con bases de datos SQL
-       como MySQL y herramientas como Git y Docker.
-    </p>
-
-    <p>
-        Mi objetivo es seguir fortaleciendo mis habilidades como desarrolladora de
-        software con enfoque Full Stack, aprendiendo constantemente nuevas tecnologías
-        y aplicando buenas prácticas de desarrollo.
-    </p>
-
+<section id="experience" class="py-20 bg-[#111827]">
+    <div class="container">
+        <div class="section-header">
+            <h2>Experiencia & Educación</h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="grid">
+            <div>
+                <div class="timeline-header">
+                     <div class="icon">
+                        <img src="images/" alt="Experiencia"> // Aun no tengo un icono para esta sección, lo agregaré luego
+                    </div>
+                    <h3>Experiencia Profesional</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Senior Full Stack Web Developer</h4>
+                            <p class="period">2021 – Presente</p>
+                            <p>
+                                Desarrollo de aplicaciones web escalables integrando frontend
+                                y backend mediante arquitecturas modernas.
+                            </p>
+                            <ul>
+                                <li>Diseño e implementación de APIs REST</li>
+                                <li>Desarrollo de aplicaciones web con JavaScript y Node.js</li>
+                                <li>Modelado de bases de datos relacionales</li>
+                                <li>Arquitectura cliente-servidor</li>
+                                <li>Optimización de rendimiento web</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="timeline-header">
+                    <div class="icon">
+                        <img src="images/" alt="Graduación"> // Aun no tengo un icono para esta sección, lo agregaré luego
+                    </div>
+                    <h3>Formación Académica</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Ingeniería en Sistemas</h4>
+                            <p>
+                                Formación académica enfocada en desarrollo de software,
+                                arquitectura de sistemas, bases de datos y desarrollo
+                                de aplicaciones web.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Licenciatura en Sistemas / Computación</h4>
+                            <p>
+                                Formación orientada al análisis, diseño y desarrollo de
+                                soluciones tecnológicas y sistemas informáticos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="skills">
-    <h2>Habilidades</h2>
-
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>SQL</li>
-        <li>Git</li>
-    </ul>
+    <h2>Habilidades Técnicas</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h3>Frontend</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Responsive Web Design</li>
+                <li>Web Performance</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>Backend</h3>
+            <ul>
+                <li>Node.js</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>Python</li>
+                <li>REST APIs</li>
+                <li>Microservices</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>Bases de Datos</h3>
+            <ul>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Database Design</li>
+                <li>Query Optimization</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>Cloud & DevOps</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Docker</li>
+                <li>CI/CD pipelines</li>
+                <li>AWS</li>
+            </ul>
+        </div>
+    </div>
 </section>
 
 <section id="projects">
     <h2>Proyectos</h2>
-
-    <article>
-        <h3>Sistema de Gestión de Museo</h3>
-        <p>
-            Aplicación desarrollada con arquitectura en capas que permite
-            gestionar el mantenimiento, venta de tickets y generación de
-            reportes para un museo.
-        </p>
-    </article>
-
-    <article>
-        <h3>Explorador de Perfiles de GitHub</h3>
-        <p>
-            Aplicación que permite buscar usuarios de GitHub y visualizar
-            información sobre sus repositorios y lenguajes más utilizados.
-        </p>
-    </article>
-
-    <article>
-        <h3>Juego Batalla Naval</h3>
-        <p>
-            Juego desarrollado en Java con interfaz gráfica y estilos CSS
-            aplicados mediante JavaFX.
-        </p>
-    </article>
-
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Plataforma de Gestión de Proyectos</h3>
+            <p>
+                Aplicación web Full Stack para la gestión de tareas
+                y equipos de trabajo con autenticación de usuarios,
+                roles y APIs REST.
+            </p>
+            <span class="project-tech">Tecnologías: JavaScript, React, Node.js, SQL</span>
+        </div>
+        <div class="project-card">
+            <h3>Dashboard de Análisis de Datos</h3>
+            <p>
+                Sistema web para visualización de métricas y datos
+                en tiempo real mediante gráficos interactivos.
+            </p>
+            <span class="project-tech">Tecnologías: HTML5, CSS3, JavaScript, REST APIs</span>
+        </div>
+        <div class="project-card">
+            <h3>API de Gestión de Usuarios</h3>
+            <p>
+                Servicio backend diseñado con arquitectura REST
+                para gestión de usuarios, autenticación y control
+                de acceso.
+            </p>
+            <span class="project-tech">Tecnologías: Node.js, Java, SQL</span>
+        </div>
+        <div class="project-card">
+            <h3>Integración con APIs Externas</h3>
+            <p>
+                Aplicación web que consume múltiples APIs externas
+                para integrar información de diferentes servicios.
+            </p>
+            <span class="project-tech">Tecnologías: JavaScript, JSON, APIs</span>
+        </div>
+    </div>
 </section>
 
 <section id="contact">
     <h2>Contacto</h2>
-
-    <p>Email: <a href="mailto:monterolorean@gmail.com">monterolorean@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/lhorean">github.com/lhorean</a></p>
+    <div class="contact-icons">
+        <a href="mailto:monterolorean@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/lhorean"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/lorean-montero-7942653aa/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
 </section>
 
 <footer>
@@ -114,6 +255,5 @@
 </footer>
 
 <script src="js/script.js"></script>
-
 </body>
 </html>
