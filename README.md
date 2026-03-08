@@ -383,3 +383,6 @@ Este enfoque me permite evolucionar constantemente como desarrolladora y contrib
 - https://www.figma.com/make/w6xCFOcoqNEp1UPmeTpPdG/Portfolio-website-for-Gaudy-Montero?t=RxoSvUaTLAE7B9S8-1
 - https://www.figma.com/make/gZtdETAFYhdejQA04z7NEH/Personal-Portfolio-Website?t=TP49kR1FRxPKwwXC-1
 - **Estas algunas ideas de como quiero que quede**
+
+# GITHUB PAGES
+https://lhorean.github.io/Portfolio-Gaudy-Montero/
